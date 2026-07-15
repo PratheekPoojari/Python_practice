@@ -5,7 +5,11 @@ Practice repo for learning Python fundamentals through CS50P and beyond.
 ## Contents
 - `function.py` — factorial and Fibonacci functions (value + series variants)
 - `type_size.py` — exploring Python data types and `sys.getsizeof`
+- `calculator.py` — uses match case to provide 6 different options for calculation and uses `sys.exit(0)` to exit the program properly.
+- `str_func.py` — displays few of the string functions, and other simple functions defined by the user that employ these functions. 
+- `compare.py` — simple if else to compare numbers.
+- `parity.py` — checks if the given input is even or odd, uses main() function and is_even() function. 
+- `house.py` — takes a string as input from the user and displays the house of the character from "Harry Potter".  
 
 ## Status
-Following the CS50P course. This repo is for exercises and warm-ups;
-the semester project lives in a separate repo (`Project_DiseaseDiagnosis`).
+Following the CS50P course. This repo is for practicing and building programs with python.
