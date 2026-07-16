@@ -10,6 +10,9 @@ Practice repo for learning Python fundamentals through CS50P and beyond.
 - `compare.py` — simple if else to compare numbers.
 - `parity.py` — checks if the given input is even or odd, uses main() function and is_even() function. 
 - `house.py` — takes a string as input from the user and displays the house of the character from "Harry Potter".  
+- `cat.py` — Demonstrates the use 'for' and 'while' loops.  
+- `hogwarts.py` — Uses 'Lists', 'Dictionary' and 'List of Dictionaries', to store the specifics of various students.
+- `mario.py` — Uses 'nested loops' to print 2D structure of '#'.
 
 ## Status
 Following the CS50P course. This repo is for practicing and building programs with python.
