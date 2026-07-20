@@ -13,6 +13,7 @@ Practice repo for learning Python fundamentals through CS50P and beyond.
 - `cat.py` — Demonstrates the use 'for' and 'while' loops.  
 - `hogwarts.py` — Uses 'Lists', 'Dictionary' and 'List of Dictionaries', to store the specifics of various students.
 - `mario.py` — Uses 'nested loops' to print 2D structure of '#'.
+- `number.py` — Uses 'try', 'except' and 'pass', to make sure that exceptions are handeled(ValueError and NameError).
 
 ## Status
 Following the CS50P course. This repo is for practicing and building programs with python.
