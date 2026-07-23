@@ -4,6 +4,7 @@ cowsay==6.1
 idna==3.18
 iniconfig==2.3.0
 packaging==26.2
+pillow==12.3.0
 pluggy==1.6.0
 Pygments==2.20.0
 pytest==9.1.1

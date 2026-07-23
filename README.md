@@ -15,7 +15,8 @@ Practice repo for learning Python fundamentals through CS50P and beyond.
 - `mario.py` — Uses 'nested loops' to print 2D structure of '#'.
 - `number.py` — Uses 'try', 'except' and 'pass', to make sure that exceptions are handeled(ValueError and NameError).
 - `Lecture 4` — General Approach towards libraries, APIs and how to install and import 3rd party and our own libraries.
-- `Lecture 5` — Learnt about programs to test other programs using pytest, assert keywords. 
+- `Lecture 5` — Learnt about programs to test other programs using pytest, assert keywords.
+- `Lecutre 6` — Learnt File I/O(.txt and .csv). Used csv library for csv fil operations. Used pillow library to a `customs.gif` using 'N' number of .gif files. 
 
 ## Status
 Following the CS50P course. This repo is for practicing and building programs with python.
