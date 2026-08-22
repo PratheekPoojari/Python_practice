@@ -1,7 +1,7 @@
 class Student:
     def __init__(self, name, house):           # '__init__' -> 'dunder': 'double underscore' method, that initializes the object. 
         if not name:                           # 'self' -> "The FIRST parameter" in the dunder method that is a mandatory reference 
-            raise ValueError("Missing Name")   # to the specific instance of the class being creted. it allows the method to access 
+            raise ValueError("Missing Name")   # to the specific instance of the class being creted. It allows the method to access 
                                                # and modify attributes of that object. needn't be 'self', can be named anything.
         self.name = name   # Instance Variable called 'name'
         self.house = house # Instance Variable called 'house'
@@ -9,11 +9,11 @@ class Student:
     def __str__(self): # Takes only one parameter, 'self' -> reference to the specific instance of the class.
         return f"{self.name} from {self.house}"
     
-    @property # Treat this method as a 'Getter'
-    def house(self):
+    @property # Treat this method as a 'Getter', used/runs when the 'house' attribute is read.
+    def house(self): 
         return self._house
 
-    @house.setter # Treat this method as 'Setter'
+    @house.setter # Treat this method as 'Setter', used/runs when the 'house' attribute is written to.
     def house(self, house):
         if house not in ["Gryffindor", "Huffelpuff", "Ravenclaw", "Slytherin"]:
             raise ValueError("Invalid House")
@@ -23,7 +23,7 @@ class Student:
 def main():
     student = get_student()
     #print(f"{student.name} from {student.house}")
-    print(student) # prints the memory location of the object is '__str__' isn't defined.
+    print(student) # prints the memory location of the object, as '__str__' isn't defined.
                    # else prints the return value of '__str__'
 
 def get_student():
