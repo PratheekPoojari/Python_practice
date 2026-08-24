@@ -12,6 +12,8 @@ Practice repo for learning Python fundamentals through CS50P and beyond.
 - `Lecutre 6` — Learnt File I/O(.txt and .csv). Used csv library for csv fil operations. Used pillow library to a `customs.gif` using 'N' number of .gif files.
 - `Lecture 7` — Learnt about Regular Expressions(re), the 're' library and it's various functions. re.search(), re.sub() and string method replace.
 - `Lecture 8` — Learnt about Various OOPs concepts such as Classes, dunder methods, properties such as getter/setter using decorators, inheritance, OperatorOverloading.
-                
+- `Lecture 9` — Learnt about more data types like sets, global variables, constants and various tools like type hints, return types, argparse lib, unpacking(*args, **kwargs),
+                map, filter, list and dict comprehensions, enumerate and generators(yeild).
+
 ## Status
 Following the CS50P course. This repo is for practicing and building programs with python.
